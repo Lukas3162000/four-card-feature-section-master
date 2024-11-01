@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 200;
+    src: url('fonts/Poppins/Poppins-Light.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    src: url('fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    font-weight: 600;
+    src: url('fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+  }
+  
+
+  html{
+    /*Fonts*/
+    font-family: 'Poppins';
+    font-size: 15px;
+
+    /*Colors*/
+    --red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    /*Neutral*/
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+  }
+
+
+  h1{
+    font-size: 2.4rem;
+  }
+
+  #Text #Subhead{
+    font-weight: 300;
+  }
