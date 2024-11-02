@@ -5,35 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <link rel="stylesheet" href="style.css">
-
   <title>Frontend Mentor | Four card feature section</title>
-  
 </head>
+
 <body>
 
-  <div id="Text">
+  <section class="Text-container">
     <h1 id="Subhead">Reliable, efficient delivery</h1>
     <h1>Powered by Technology</h1> 
 
     <p>Our Artificial Intelligence powered tools use millions of project data points 
     to ensure that your project is successful</p> 
-  </div>
+  </section>
 
-  <div style="color: hsl(0,78%,62%);">
-  Supervisor
-  Monitors activity to identify project roadblocks
-  <br><br>
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-  <br><br>
-  Karma
-  Regularly evaluates our talent to ensure quality
-  <br><br>
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-  </div>
+  <section class="container">
+
+    <div class="card">
+      <div class="card-stripe"></div>
+       <div class="Card-content">
+          <h2>Supervisor</h2>
+          <p>Monitors activity to identify project roadblocks</p>
+          <img src="images\icon-supervisor.svg" alt="Supervisors Icon">
+        </div>
+    </div>
+
+    <div class="doubleColumn">
+      <div class="card">
+        <div class="card-stripe"></div>
+          <div class="Card-content">
+            <h2>Team Builder</h2>
+            <p>Scans our talent network to create the optimal team for your project</p>
+            <img src="images\icon-team-builder.svg" alt="Supervisors Icon">
+          </div>
+      </div>
+
+      <div class="card">
+        <div class="card-stripe"></div>
+          <div class="Card-content">
+          <h2>Karma</h2>
+          <p>Regularly evaluates our talent to ensure quality</p>
+          <img src="images\icon-karma.svg" alt="Supervisors Icon">
+        </div>
+      </div>
+    </div>
+ 
+   <div class="card">
+    <div class="card-stripe"></div>
+      <div class="Card-content">
+        <h2>Calculator</h2>
+        <p>Uses data from past projects to provide better delivery estimates</p> 
+        <img src="images\icon-calculator.svg" alt="Supervisors Icon">
+      </div>
+   </div>
+
+  </section>
 
 </body>
 </html>
