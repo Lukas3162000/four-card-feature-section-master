@@ -96,8 +96,6 @@
     border-radius: 6px;
     margin: 20px;
     box-shadow: 0px 4px 10px hsla(0, 0%, 0%, 0.205);
-
-    max-height: 250px;
     max-width: 350px;
 
 
@@ -138,5 +136,21 @@
     margin: 0px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
+  }
+
+  .card-stripe-blue{
+    background-color: var(--Blue);
+  }
+
+  .card-stripe-red{
+    background-color: var(--red);
+  }
+
+  .card-stripe-cyan{
+    background-color: var(--Cyan);
+  }
+
+  .card-stripe-orange{
+    background-color: var(--Orange);
   }
 
