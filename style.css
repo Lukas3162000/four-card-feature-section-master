@@ -1,3 +1,5 @@
+/*Fonts*/
+
 @font-face {
     font-family: 'Poppins';
     font-weight: 200;
@@ -15,6 +17,9 @@
     font-weight: 600;
     src: url('fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
   }
+
+
+/*General Settings*/
 
   *{
     margin: 0px;
@@ -55,6 +60,8 @@
   }
    
 
+/*Text Section*/
+
   #Subhead{
     margin-bottom: -0.5rem;
     color: var(--VeryDarkBlue);
@@ -83,6 +90,9 @@
   .Text-container #Subhead{
     font-weight: 300;
   }
+
+
+  /*Card Scetion*/
 
   .container{
     display: flex;
@@ -128,6 +138,7 @@
   }
 
 
+/*Card Stripes*/
 
   .card-stripe{
     width: 100%;
@@ -154,3 +165,30 @@
     background-color: var(--Orange);
   }
 
+
+/*Responsive features*/
+
+ @media (width<768px){
+
+  .container{
+    flex-direction: column;
+  }
+  .doubleColumn{
+   display: flex;
+   flex-direction: column;
+  }
+  
+  #Subhead{
+    font-size: 1.6rem;
+    margin-bottom: 0rem;
+  }
+
+  h1{
+    font-size: 1.6rem;
+  }
+
+  #intro{
+    width: 20rem;
+  }
+
+ }
