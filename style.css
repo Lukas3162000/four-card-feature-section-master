@@ -45,6 +45,7 @@
     align-items: center;
 
   }
+
   body{
     display: flex;
     flex-direction: column;
@@ -54,14 +55,21 @@
   }
    
 
-
-  #Subhead,h1,p{
-
-    line-height: 3rem;
+  #Subhead{
+    margin-bottom: -0.5rem;
+    color: var(--VeryDarkBlue);
   }
 
   h1{
     font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+    color: var(--VeryDarkBlue);
+  }
+
+  #intro{
+    width: 34rem;
+    margin-bottom: 2.3rem;
+    color: var(--GrayishBlue);
   }
 
   .Text-container{
@@ -69,10 +77,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     text-align: center;
-
-    margin-top: 88px;
   }
 
   .Text-container #Subhead{
@@ -82,6 +87,7 @@
   .container{
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
 
   .card{
@@ -90,7 +96,40 @@
     border-radius: 6px;
     margin: 20px;
     box-shadow: 0px 4px 10px hsla(0, 0%, 0%, 0.205);
+
+    max-height: 250px;
+    max-width: 350px;
+
+
   }
+
+  .card h2{
+    margin-bottom: 1.45rem;
+    font-size: 1.33333rem;
+    font-weight: 600;
+    color: var(--VeryDarkBlue);
+  }
+
+  .card p{
+    margin-bottom: 2rem;
+    font-size: 0.86667rem;
+    font-weight: 200;
+    color: var(--GrayishBlue);
+  }
+
+  .Card-content{
+    padding: 2.1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .card img{
+    width: 64px;
+    margin-left: auto;
+  }
+
+
 
   .card-stripe{
     width: 100%;
@@ -101,6 +140,3 @@
     border-top-right-radius: 6px;
   }
 
-  .Card-content{
-    padding: 24px;
-  }
